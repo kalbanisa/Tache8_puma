@@ -1,0 +1,231 @@
+ 
+/* <div class="principa"> */
+.principa{
+    display: grid;
+    flex-direction: column;
+}
+header{
+position: relative;
+}
+header img{
+    width: 8rem;
+    height: 8.6rem;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    object-fit: cover;
+}
+ header .PRIN{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: antiquewhite;
+    padding: 20px 30px;
+}
+.principa header .MADE11{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+} 
+/* <section> <div class="deuxieme"> */
+.deuxieme{
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.deuxieme .mode2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mode2 .modeA,
+.deuxieme .icon li{
+    min-width:90px;
+    height: 90px;
+    line-height:90px ;
+    border: 1px solid #ddd;
+    text-align: center;
+    
+}
+.deuxieme .icon{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+ .deuxieme .icon li{
+    list-style-type: none;
+     
+}
+.deuxieme .icon li a{
+    color: black;
+    text-decoration: none;
+}
+ 
+.TROI{
+    background-color: rgb(239, 75, 16);
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 50%;
+  
+}
+
+/* <section class="section"> */
+ 
+ .section img{
+    margin: 0px;
+   /* margin-top: 30px; */
+   background-size: cover;
+   z-index: 1;
+    
+
+ }
+img{
+    width: 100%;
+}
+/* .section{
+    background-image: url(image/im1.jpg);
+     
+} */
+.image-puma{
+     display: flex;
+    justify-content: center;
+    /* margin-left: 90px; */
+    left: 90px;
+    margin-top: -800px;   
+}
+.image-puma img{
+    width: auto;
+    border-bottom: 3px solid orangered;
+}
+.paragra{
+   padding-top: 150px;
+   margin-bottom: 70px;
+}
+.paragra span
+  {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.paragra .p1{
+    font-size: 60px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+     
+}
+.buttons button{
+    padding: 20px 30px;
+    color: aliceblue;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-bottom:  50px;
+}
+.bourde ul{
+    display: flex;
+    justify-content: center;
+    color: #a7a5a5  ;
+    border-radius: 10px;
+    gap: 30px;
+    margin-bottom:  50px;  
+    transition: transform 0.3s ease; 
+     
+}
+.bourde ul li{
+    border: 1px solid;
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: #a7a5a5 ;
+}
+li{
+    list-style: none;
+}
+.bourde ul li:hover{
+        transform: scale(1.1);
+        color: #fff;
+        background-color: #fff;
+}
+.nixion1{
+    background: #a7a5a5;
+    /* padding-top: -40px; */
+    height: 100;
+}
+.nixion img{
+    width: 90%;
+    padding-left: 50px;
+    padding-top: -20px;
+}
+.nixion1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+    .principa header,
+    .principa header .MADE11{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .header .PRIN{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+      
+    }
+    .deuxieme,
+    .deuxieme .icon{
+        display: grid;
+        grid-template-columns: 1fr;
+         
+    }
+    .deuxieme .icon,
+    .deuxieme .mode2{
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+    }
+    .section img{
+         background-size: cover;
+        z-index: 1;
+     
+      }
+      header img{
+        top: 9%;
+        
+    }
+      .image-puma img{
+        display: flex;
+       justify-content: center;
+        margin-left: -50px;
+        margin-top: 500px;
+        border-bottom: 3px solid orangered;
+        
+    }
+    .buttons button{
+        margin-bottom:  0px;
+    }
+      .paragra{
+        padding-top: 10px;
+        margin-bottom: 10px;
+        
+     }
+     .paragra .p1{
+        font-size: 30px;
+    }
+    .bourde ul{
+      margin-bottom:0px;  
+              
+    }
+    .nixion img{
+         
+        padding-left: 30px;
+        
+    }
+}
