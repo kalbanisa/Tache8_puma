@@ -1,4 +1,4 @@
- 
+  
 /* <div class="principa"> */
 .principa{
     display: grid;
@@ -28,6 +28,11 @@ header img{
     gap: 20px;
     
 } 
+.MADE11 a{
+    color:#fff ;
+      list-style-type:none;
+      text-decoration:none;
+ }
 /* <section> <div class="deuxieme"> */
 .deuxieme{
     display: flex;
@@ -48,6 +53,10 @@ header img{
     border: 1px solid #ddd;
     text-align: center;
     
+}
+.deuxieme .modeA a{
+    text-decoration:none;
+    color:black;
 }
 .deuxieme .icon{
     display: flex;
@@ -113,10 +122,16 @@ img{
 .paragra .p1{
     font-size: 60px;
 }
-.buttons{
+.paragra .p2
+ {
     display: flex;
     justify-content: center;
      
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
 }
 .buttons button{
     padding: 20px 30px;
@@ -124,6 +139,11 @@ img{
     background: transparent;
     border: 1px solid #fff;
     margin-bottom:  50px;
+    
+   
+}
+button i{
+    float:end;
 }
 .bourde ul{
     display: flex;
@@ -197,47 +217,54 @@ li{
      
       }
       header img{
-       top: 13%
+        top: 13%
         
     }
-    .image-puma img{
+    /* <section class="section"> */
+     
+      .image-puma img{
         display: flex;
        justify-content: center;
         margin-left: -50px;
         margin-top: 556px;
         width: auto;
-        border-bottom: 3px solid orangered;   
+        border-bottom: 3px solid orangered;
+        
     }
-   .paragra{
-      padding-top: 0px;
+    .paragra{
+        padding-top: 0px;
         margin: 0;
         margin-bottom: 4px;
         
      }
-   .paragra .p1{
+     .paragra span {
+         /* padding-left: 30px; */
+    }
+     
+    .paragra .p1{
         font-size: 30px;
     }
- .paragra .p2{
+    .paragra .p2{
         text-align: center;
     }
- .buttons{
+    .buttons{
         display: flex;
     justify-content: center;
     
     }
     .buttons button{
-       margin-bottom:  0px;
+        margin-bottom:  0px;
         padding: 5px 10px;
         padding-top: 12;
+       
     }
-    
    
     .bourde ul{
-      margin-bottom:0px;  
-              
+      margin-bottom:0px;         
     }
+    /* <section class="section"> */
     .nixion img{
-          padding-left: 21px;
+         padding-left: 21px;
         
     }
 }
