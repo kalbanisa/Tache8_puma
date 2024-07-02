@@ -197,35 +197,47 @@ li{
      
       }
       header img{
-        top: 9%;
+       top: 13%
         
     }
-      .image-puma img{
+    .image-puma img{
         display: flex;
        justify-content: center;
         margin-left: -50px;
-        margin-top: 500px;
-        border-bottom: 3px solid orangered;
-        
+        margin-top: 556px;
+        width: auto;
+        border-bottom: 3px solid orangered;   
     }
-    .buttons button{
-        margin-bottom:  0px;
-    }
-      .paragra{
-        padding-top: 10px;
-        margin-bottom: 10px;
+   .paragra{
+      padding-top: 0px;
+        margin: 0;
+        margin-bottom: 4px;
         
      }
-     .paragra .p1{
+   .paragra .p1{
         font-size: 30px;
     }
+ .paragra .p2{
+        text-align: center;
+    }
+ .buttons{
+        display: flex;
+    justify-content: center;
+    
+    }
+    .buttons button{
+       margin-bottom:  0px;
+        padding: 5px 10px;
+        padding-top: 12;
+    }
+    
+   
     .bourde ul{
       margin-bottom:0px;  
               
     }
     .nixion img{
-         
-        padding-left: 30px;
+          padding-left: 21px;
         
     }
 }
